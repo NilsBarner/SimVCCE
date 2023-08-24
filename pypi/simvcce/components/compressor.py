@@ -36,6 +36,7 @@ class Compressor(Device_SISO):
             self.oPort.s = self.iPort.s
          # ef
         if self.ef is None or self.ef != 1.0:
+            print('Hello world')
             pass  # add your code here to get the oPort state
 
     def balance(self):
